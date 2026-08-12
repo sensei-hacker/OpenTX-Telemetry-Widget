@@ -107,6 +107,21 @@ tagging to confirm assets showed up (see checklist below).
    gh release upload vX.Y.Z dist/*.zip --repo iNavFlight/OpenTX-Telemetry-Widget
    ```
 
+## Release Notes
+
+Release notes should describe what has changed, from the point of view of what users will want to know. The should describe how a new feature can be used or how a change affects users, as opposed to the details of how it is implemented.
+
+Be sure to point out changes which have backwards compatibility changes or would surprise experienced users.
+
+The release notes should also describe the two zip files provided, using text such as the following:
+```
+Two Zip files are provided:
+
+LuaTelemetry v2.3.0_lua.zip : Source LUA, compiles on the device, may be required in the simulator. Also for EdgeTX 2.11rc1 and later.
+
+LuaTelemetry_v2.3.0.zip : Compiled LUA, should work on all radios (prior to EdgeTX 2.11rc1, which unfortunately breaks pre-compiled Lua).
+```
+
 ## Troubleshooting
 
 **Tag was pushed pointing at the wrong commit (e.g. before a needed
