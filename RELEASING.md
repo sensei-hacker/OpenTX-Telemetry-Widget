@@ -109,7 +109,7 @@ tagging to confirm assets showed up (see checklist below).
 
 ## Release Notes
 
-Release notes should describe what has changed, from the point of view of what users will want to know. The should describe how a new feature can be used or how a change affects users, as opposed to the details of how it is implemented.
+Release notes should describe what has changed, from the point of view of what users will want to know. They should describe how a new feature can be used or how a change affects users, as opposed to the details of how it is implemented.
 
 Be sure to point out changes which have backwards compatibility changes or would surprise experienced users.
 
